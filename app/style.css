@@ -1,3 +1,7 @@
+/* 
+    CSS RESET - Serve para limpar o CSS padrão
+*/
+
 * {
     margin:0;
     padding: 0;
@@ -5,40 +9,5 @@
 }
 
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #C3C6D7;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.title {
-    background: #fff;
-    color: #004AC6;
-    font-family: "Plus Jakarta Sans";
-    font-weight: 800;
-    font-size: 40px;
-}
-
-.badge {
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    background-color: #FFDDB8;
-    display: flex;
-    align-items: center;
-    border-radius: 20px;
-}
-
-button {
-    border: none;
-}
-
-.container-button {
-    display: flex;
-    gap: 16px;
+    padding: 24px 20px;
 }
