@@ -3,6 +3,7 @@
 </style>
 <script>
     import Card from '@/components/card'
+    import Progress from "@/components/progress"
 </script>
 <template>
     <div class="container">
@@ -12,6 +13,7 @@
         <div class="cards-container">
             <Card title="Active Sets" value="8" />
             <Card title="Mastered" value="412" />
+            <Progress initial="40" count="50" />
         </div>
     </div>
 </template>
