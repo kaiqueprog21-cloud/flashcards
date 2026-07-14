@@ -1,0 +1,43 @@
+.front-side{
+    font-family: "Plus Jakarta Sans";
+    padding-left: 20px;
+    padding-top: 24px; 
+    font-size: 16px;
+    color: #737686;
+    }
+
+.back-side{
+    font-family: "Plus Jakarta Sans";
+    padding-left: 20px;
+    padding-top: 24px;
+    font-size: 16px;
+    color:#737686;
+    }
+
+.front-text {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 700px;      
+    height: 150px;      
+    min-height: 100px;  
+    max-height: 300px;    
+    padding: 24px; 
+    border: none;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    }
+
+.back-text{
+    margin-left: 20px;
+    width: 100%;
+    max-width: 700px;
+    height: 150px;
+    min-height: 100px;
+    max-height: 300px;
+    padding: 24px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    }
