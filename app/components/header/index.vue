@@ -4,7 +4,9 @@
 
 <template>
     <div class="container">
-    <h1 class="title">FlashMind</h1>
+    <h1 class="title">
+      <a href="/">FlashMind</a>
+    </h1>
 
     <div class="container-button">
       <div class="badge">
