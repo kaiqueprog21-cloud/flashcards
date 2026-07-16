@@ -4,6 +4,7 @@
 <script setup>
     import Input from '@/components/input';
     import { ref } from 'vue'
+import { useSupabase } from '~/composable/useSupabase';
 
    const fileInput = ref(null)
    const selectedImage = ref(null)
@@ -16,6 +17,27 @@
         const file = event.target.files[0]
         selectedImage.value = file
         console.log(file)
+    }
+
+    async function handleCreateCard() {
+        console.log("VOU CRIAR O CARD")
+        const supabase = useSupabase()
+
+        // const resposta = await supabase.from('collection').insert({
+        //     id: 1,
+        //     name: "Primeira coleção"
+        // })
+        // console.log("resposta =>",resposta)
+        
+        await supabase.from('flashcards').insert({
+            id: 1,
+            frontside: 'Why?',
+            backside: 'Porque',
+            image: '',
+            collectionid: 1
+        })
+
+        console.log("CRIEI O CARD")
     }
 
 </script>
@@ -33,6 +55,6 @@
                 <span>PNG , JPG up to 10MB</span>
             </div>
         </div>
-    <button class="save">Save New Card</button>  
+    <button class="save" @click="handleCreateCard">Save New Card</button>  
     <button class="cancel">Cancel</button>  
 </template>    
