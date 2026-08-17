@@ -97,3 +97,85 @@
     display: flex;
     gap: 16px;
 }
+
+.stydy-card {
+    align-items: center; 
+    border: 1px; 
+}
+
+.active-flashcard{
+    border: 1px solid black;
+    border-radius: 16px;
+    max-width: 380px;
+    width: 100%;
+    height: 210px;
+    align-items: center;
+    margin: 24px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.active-flashcard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active-front {
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px; 
+    position: absolute;
+    bottom: 0px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: rgba(80, 79, 79, 0.658)
+}
+
+.flip {
+    color: #191C1E;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px; 
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.right-miss {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.button {
+    background: #FFF;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 16px 34px
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+}
+
+.button:hover {
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.yes {
+    background-color: #009c6b25;
+}
+
+.no {
+    background-color: #f74e4e4d;
+}
