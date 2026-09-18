@@ -81,4 +81,12 @@
         </div>
     <button class="save" @click="handleCreateCard">Save New Card</button>  
     <button class="cancel">Cancel</button>  
+    <div> 
+        <p>Live preview</p>
+        <button class="flip-card">Flip Card</button>
+        <div class="view">
+
+        </div>
+    </div>
+
 </template>    
